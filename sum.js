@@ -1,5 +1,9 @@
 var m = module.exports = {}
 
 m.sum = function (a) {
-  // 請在此寫下你的實作程式碼！
+  var s = 0
+  for (var x of a) {
+    s += x
+  }
+  return s
 }
